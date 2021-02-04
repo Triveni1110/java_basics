@@ -78,8 +78,9 @@ public class Pallindrome {
 		System.out.println();
 		System.out.println("USING STRING BUFFER");
 		StringBuffer sb1 = new StringBuffer(testString);
+		StringBuffer sb2 = new StringBuffer(testString);
 		sb1.reverse();
-		System.out.println(sb1);
+		System.out.println(sb1.equals(sb2));
 
 		System.out.println("USING STRING BUILDER");
 		StringBuilder sbl1 = new StringBuilder(testString);
