@@ -2,6 +2,10 @@ package com.java.basic;
 
 import java.util.Scanner;
 
+/**
+ * @author hp
+ *
+ */
 public class BinaryDecimalConversion {
 
 	public static void main(String args[]) {
