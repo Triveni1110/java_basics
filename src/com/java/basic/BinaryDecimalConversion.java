@@ -32,6 +32,7 @@ public class BinaryDecimalConversion {
 	}
 
 	private static int convertToDecimal(int num) {
+		
 		int i = 0;
 		int rem = 1;
 		int dcm1 = 0;
